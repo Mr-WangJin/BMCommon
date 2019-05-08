@@ -1,0 +1,17 @@
+/*.db
+/.vs/BimCommon/v14/*.suo
+/BimCommon.VC.VC.opendb
+/BimCommon/BimCommon.vcxproj.user
+/BimCommon/x64/Debug
+/BimCommon/x64/Release
+/INSTALL/*.user
+/Test/x64/Debug
+/Test/x64/Release
+/x64/Debug
+/release/lib/Debug
+/BimCommon/*.cod
+/release/include
+/x64/Release
+/release/lib/Release
+/ipch/BIMCOMMON-fff062e7/*.ipch
+/INSTALL/x64/Release
