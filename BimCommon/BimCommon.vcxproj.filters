@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Exception">
+      <UniqueIdentifier>{d40ccadc-f765-4451-af04-5db1590d5438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{48481bb5-d606-4e05-94d1-d13f43e1ca64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{646d838d-1590-433c-b7d9-fde068be6558}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{345ba575-23fd-4379-8c76-ef5fc6bfa0e6}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{95715ad4-8ae2-45ca-937a-a8db647d7df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AsyncTask">
+      <UniqueIdentifier>{d291a2b3-baa8-4fc0-833c-f2dfa416bdbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AsyncTask\ThreadPool">
+      <UniqueIdentifier>{0b53ae8b-9529-4ba4-88a6-6c9db939eba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AsyncTask\ProducerConsumer">
+      <UniqueIdentifier>{d7575af9-ee9c-452f-83b1-0c9c7ffb547c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{69677b21-9f60-4821-95f2-cf5760a561e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\UiCommon">
+      <UniqueIdentifier>{6ff35d99-d96c-44b7-bd67-41cf0ad4d9dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exception\BMException.cpp">
+      <Filter>Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\BMGSPCommon.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Int64Processor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_reader.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_value.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_writer.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GZip.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTask\ThreadPool\ThreadPool.cpp">
+      <Filter>AsyncTask\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTask\AsyncTaskBase.cpp">
+      <Filter>AsyncTask</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTask\ThreadPool\ThreadTask.cpp">
+      <Filter>AsyncTask\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTask\ProducerConsumer\AsyncTask.cpp">
+      <Filter>AsyncTask\ProducerConsumer</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTask\ProducerConsumer\AsyncParam.cpp">
+      <Filter>AsyncTask\ProducerConsumer</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTask\ProducerConsumer\AsyncManager.cpp">
+      <Filter>AsyncTask\ProducerConsumer</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTask\ProducerConsumer\Consumer.cpp">
+      <Filter>AsyncTask\ProducerConsumer</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTask\ProducerConsumer\Producer.cpp">
+      <Filter>AsyncTask\ProducerConsumer</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTask\ThreadPool\WorkerThread.cpp">
+      <Filter>AsyncTask\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTask\BlockedQueue.cpp">
+      <Filter>AsyncTask</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTask\ThreadPool\WorkerThreadManager.cpp">
+      <Filter>AsyncTask\ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\LogManager.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTask\BimThread.cpp">
+      <Filter>AsyncTask</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UiCommon\BMTreeWidget.cpp">
+      <Filter>Common\UiCommon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BMGlobal.h" />
+    <ClInclude Include="Exception\BMException.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\BMGSPCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Int64Processor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Common\GZip.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BMDefine.h" />
+    <ClInclude Include="AsyncTask\ThreadPool\ThreadPool.h">
+      <Filter>AsyncTask\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTask\AsyncTaskBase.h">
+      <Filter>AsyncTask</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTask\ThreadPool\ThreadTask.h">
+      <Filter>AsyncTask\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTask\ThreadDef.h">
+      <Filter>AsyncTask</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTask\ProducerConsumer\AsyncTask.h">
+      <Filter>AsyncTask\ProducerConsumer</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTask\ProducerConsumer\AsyncParam.h">
+      <Filter>AsyncTask\ProducerConsumer</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTask\ProducerConsumer\AsyncManager.h">
+      <Filter>AsyncTask\ProducerConsumer</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTask\ProducerConsumer\Consumer.h">
+      <Filter>AsyncTask\ProducerConsumer</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTask\ProducerConsumer\Producer.h">
+      <Filter>AsyncTask\ProducerConsumer</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTask\ThreadPool\WorkerThread.h">
+      <Filter>AsyncTask\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTask\BlockedQueue.h">
+      <Filter>AsyncTask</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTask\ThreadPool\WorkerThreadManager.h">
+      <Filter>AsyncTask\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\LogManager.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTask\BimThread.h">
+      <Filter>AsyncTask</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UiCommon\BMTreeWidget.h">
+      <Filter>Common\UiCommon</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

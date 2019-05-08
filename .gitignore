@@ -15,3 +15,5 @@
 /release/lib/Release
 /ipch/BIMCOMMON-fff062e7/*.ipch
 /INSTALL/x64/Release
+/ipch/BIMCOMMON-e3fdc733/*.ipch
+/INSTALL/x64/Debug

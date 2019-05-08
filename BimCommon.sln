@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BimCommon", "BimCommon\BimCommon.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL\INSTALL.vcxproj", "{14307B12-5F11-4174-B7E3-B4A4357EBD61}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B12702AD-ABFB-343A-A199-8E24837244A3} = {B12702AD-ABFB-343A-A199-8E24837244A3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{653D889A-FFDD-4B3E-9A4C-B999ED44D509}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.Build.0 = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.Build.0 = Release|x64
+		{14307B12-5F11-4174-B7E3-B4A4357EBD61}.Debug|x64.ActiveCfg = Debug|x64
+		{14307B12-5F11-4174-B7E3-B4A4357EBD61}.Debug|x64.Build.0 = Debug|x64
+		{14307B12-5F11-4174-B7E3-B4A4357EBD61}.Release|x64.ActiveCfg = Release|x64
+		{14307B12-5F11-4174-B7E3-B4A4357EBD61}.Release|x64.Build.0 = Release|x64
+		{653D889A-FFDD-4B3E-9A4C-B999ED44D509}.Debug|x64.ActiveCfg = Debug|x64
+		{653D889A-FFDD-4B3E-9A4C-B999ED44D509}.Debug|x64.Build.0 = Debug|x64
+		{653D889A-FFDD-4B3E-9A4C-B999ED44D509}.Release|x64.ActiveCfg = Release|x64
+		{653D889A-FFDD-4B3E-9A4C-B999ED44D509}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
